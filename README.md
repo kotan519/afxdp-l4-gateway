@@ -5,15 +5,7 @@ Designed to forward traffic between a physical NIC and an OVS bridge.
 
 ## Architecture
 
-eth0 (XDP redirect)
-    ↓
-AF_XDP userspace
-    ↓
-veth-gate
-    ↓
-OVS br0
-    ↓
-VM
+eth0 (XDP redirect) → AF_XDP userspace → veth-gate → OVS br0 → VM
 
 ## Setup
 
