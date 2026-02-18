@@ -1,0 +1,23 @@
+# build artifacts
+*.o
+*.a
+*.so
+*.out
+*.elf
+
+# BPF objects
+*.bpf.o
+
+# binaries
+build/
+bin/
+
+# clang
+*.ll
+
+# editor
+.vscode/
+.idea/
+
+# mac
+.DS_Store
